@@ -1,6 +1,6 @@
 import React from 'react'; // Import React để sử dụng JSX
-import 'public/customer/fontawesome/css/all.min.css'; // Import FontAwesome CSS
-import '../../assets/customers/sass/_footer.scss'; // Import Sass riêng cho footer
+import '../../assets/customers/fontawesome/css/all.min.css';// Import FontAwesome CSS
+import '../../assets/customers/sass/style.scss';
 
 
 const Footer = () => {
@@ -66,4 +66,4 @@ const Footer = () => {
     );
 };
 
-export default Footer; // Xuất Footer để sử dụng trong các tệp khác
+export default Footer; 

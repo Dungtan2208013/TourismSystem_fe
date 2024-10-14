@@ -1,7 +1,6 @@
 import React from 'react';
-import 'public/customer/fontawesome/css/all.min.css'; // Import FontAwesome CSS
-import '../../assets/customers/sass/_about.scss'; // Import Sass
-import '../../assets/customers/sass/_header.scss'; // Import CSS/Sass riêng nếu có
+import '../../assets/customers/sass/style.scss';
+import '../../assets/customers/fontawesome/css/all.min.css';
 
 
 const Header = () => {

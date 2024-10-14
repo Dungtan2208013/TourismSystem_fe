@@ -106,26 +106,26 @@ function Register(props) {
     const [registeredUsers, setRegisteredUsers] = useState([]);
 
 
-    const onRegister = (e) => {
-        e.preventDefault();
-        if (validateForm()) {
-            const { repassword, ...formDataWithoutRepassword } = createForm;
-            console.log('register', formDataWithoutRepassword);
-            // setRegisteredUsers([...registeredUsers, formDataWithoutRepassword]);
-            // setRegisteredUsers(prevUsers => {
-            //     const updatedUsers = [...prevUsers, formDataWithoutRepassword];
-            //     console.log('Registered Users:', updatedUsers); // Hiển thị toàn bộ danh sách người dùng đã đăng ký
-            //     return updatedUsers;
-            // });
+    // const onRegister = (e) => {
+    //     e.preventDefault();
+    //     if (validateForm()) {
+    //         const { repassword, ...formDataWithoutRepassword } = createForm;
+    //         console.log('register', formDataWithoutRepassword);
+    //         // setRegisteredUsers([...registeredUsers, formDataWithoutRepassword]);
+    //         // setRegisteredUsers(prevUsers => {
+    //         //     const updatedUsers = [...prevUsers, formDataWithoutRepassword];
+    //         //     console.log('Registered Users:', updatedUsers); // Hiển thị toàn bộ danh sách người dùng đã đăng ký
+    //         //     return updatedUsers;
+    //         // });
             
             
 
-            ToastSuccess('okok')
+    //         ToastSuccess('okok')
 
 
-        }
+    //     }
 
-    }
+    // }
 
     return (
         <div>
@@ -228,7 +228,7 @@ function Register(props) {
                                     </div>
 
                                 </form>
-                                <div style={{ textAlign: 'center' }}>
+                                {/* <div style={{ textAlign: 'center' }}>
                                     <div className="btn-container " style={{ color: 'white' }}>
                                         <a onClick={onRegister}
                                             className="btn btn-main-2 btn-icon btn-round-full">Register
@@ -239,7 +239,7 @@ function Register(props) {
                                         Have already an account? <Link to="/login">Login</Link>
                                     </div>
 
-                                </div>
+                                </div> */}
 
                             </div>
                         </div>

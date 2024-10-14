@@ -64,25 +64,25 @@ const Login = () => {
         return valid;
     }
 
-    const checkLogin = () => {
-        if (createForm.phone !== Account.phone || createForm.password !== Account.password) {
-            ToastError('Incorrect phone number or password please try again');
+    // const checkLogin = () => {
+    //     if (createForm.phone !== Account.phone || createForm.password !== Account.password) {
+    //         ToastError('Incorrect phone number or password please try again');
 
-        } else {
-            ToastSuccess('okok')
-            console.log('payload', createForm);
-        }
-    }
+    //     } else {
+    //         ToastSuccess('okok')
+    //         console.log('payload', createForm);
+    //     }
+    // }
 
-    const onLogin = (e) => {
-        e.preventDefault();
-        if (validateForm()) {
-            checkLogin()
-        }
+    // const onLogin = (e) => {
+    //     e.preventDefault();
+    //     if (validateForm()) {
+    //         checkLogin()
+    //     }
 
 
 
-    }
+    // }
 
     return (
 
@@ -145,10 +145,9 @@ const Login = () => {
 
 
                                 </form>
-                                <div style={{ textAlign: 'center' }} >
+                                {/* <div style={{ textAlign: 'center' }} >
                                     <div className="btn-container " style={{ color: 'white' }}>
-                                        <a onClick={onLogin}
-                                            className="btn btn-main-2 btn-icon btn-round-full">Login
+                                        <a onClick={onLogin} className="btn btn-main-2 btn-icon btn-round-full">Login
                                             <i className="icofont-simple-right ml-2  "></i>
                                         </a>
                                     </div>
@@ -156,7 +155,7 @@ const Login = () => {
                                         Don't have an account? <Link to="/register">Register</Link>
                                     </div>
 
-                                </div>
+                                </div> */}
 
                             </div>
                         </div>

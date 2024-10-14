@@ -1,4 +1,7 @@
 /**************** about css start ****************/
+@import 'variables';
+
+
 .about_us{
     position: relative;
     z-index: 1;
@@ -26,6 +29,7 @@
             margin-bottom: 21px;
             font-weight: 700;
             font-size: 46px;
+
             @media #{$tab}{
                 margin-bottom: 10px;
                 font-size: 30px;
@@ -45,7 +49,7 @@
     }
 }
 .our_service_part{
-    background-image: url(../img/service_bg_2.png);
+    // background-image: url(../img/service_bg_2.png);
     background-repeat: no-repeat;
     background-position: left ;
     background-size: 29% 86%;

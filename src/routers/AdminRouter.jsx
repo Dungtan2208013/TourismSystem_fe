@@ -5,7 +5,7 @@ function AdminRouter() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<h1>Admin Dashboard</h1>} />
+        <Route path="/admin" element={<h1>Admin Dashboard</h1>} />
         {/* Add more admin-related routes here */}
       </Routes>
     </div>
